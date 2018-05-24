@@ -1,0 +1,23 @@
+{
+  "name": "alexa-skill-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "ask-sdk": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DnlOliveira/skill-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DnlOliveira/skill-skeleton/issues"
+  },
+  "homepage": "https://github.com/DnlOliveira/skill-skeleton#readme"
+}
