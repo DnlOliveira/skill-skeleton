@@ -1,0 +1,14 @@
+service: direct-msg
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  profile:
+
+functions:
+  start:
+    handler: handler.start
+    events:
+      - alexaSkill:
+        appId: amzn1.ask.skill.8cf5e7de-af6a-4961-8e0b-e842e77bce42
+        enabled: true
